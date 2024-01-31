@@ -5,7 +5,19 @@
         <title>
             Youtube Go
         </title>
+        <link rel="preconnect" href="https://fonts.
+        googleapis.com">
+        <link rel="preconnect" href="https://fonts.
+        gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2
+        ?family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
         <style>
+            p{
+                font-family: Roboto,Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
             .thumbnail{
                 width: 300px;
                 display: block;
@@ -15,11 +27,43 @@
                 margin-left: 8px;
                 display: block;
             }
+            .video-description{
+                margin-top: 0;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 12px;
+            }
             .video-preview{
                 width: 300px;
                 display: inline-block;
                 vertical-align: top;
                 margin-right: 15px;
+            }
+            .channel-picture{
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .video-info{
+                display: inline-block;
+                width: 200px;
+            }
+           .profile-picture{
+                width: 40px;
+                border-radius: 50px;
+           }
+
+            .thumbnail-row{
+                margin-bottom: 12px;
+            }
+            .video-author,
+            .video-stats{
+                font-size: 12px;
+                color: rgb(96, 96, 96);
+            }
+            .video-author{
+                margin-bottom: 4px;
             }
            
         </style>
@@ -30,37 +74,65 @@
         
 
         <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </div>
+            <div>
+                <div class=" channel-picture">
+                    <img  class="profile-picture" src="profile-pictures/channel-1.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="video-description">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+            
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+            
+                    <p class="video-stats">        
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+               
+               
+            </div>
+            
         
 
-            <p class="video-description">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-    
-            <p class="video-author">
-                Marques Brownlee
-            </p>
-    
-            <p class="video-stats">        
-                3.4M views &#183; 6 months ago
-            </p>
+            
         </div>
 
         
+      
         <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </div>
+            <div>
+                <div class=" channel-picture">
+                    <img  class="profile-picture" src="profile-pictures/channel-2.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="video-description">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+            
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+            
+                    <p class="video-stats">        
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+               
+               
+            </div>
+            
         
 
-            <p class="video-description">
-                Try Not To Laugh Challenge #9
-            </p>
-    
-            <p class="video-author">
-                markiplier
-            </p>
-    
-            <p class="video-stats">        
-                19M views &#183; 4 years ago            </p>
+            
         </div>
     </body>
 
